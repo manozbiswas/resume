@@ -174,7 +174,7 @@
                                 <div class="" style="text-align: left">
                                     <span id="interest_error"></span>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-6 custom-height">
                                     <div class="form-group">
                                         <div class="checkbox">
                                             <label>
@@ -227,7 +227,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-6 custom-height">
                                     <div class="form-group">
                                         <div class="checkbox">
                                             <label>
@@ -280,7 +280,7 @@
 										
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-6 custom-height">
                                     <div class="form-group">
                                         <div class="checkbox">
                                             <label>
@@ -326,7 +326,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
+                                <div class="col-md-3 col-sm-6 custom-height">
                                     <div class="form-group">
                                         <div class="checkbox">
                                             <label>

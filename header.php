@@ -29,25 +29,14 @@
         <div id="top-con">
             <div id="top">
                 <div class="container">
-                    <div id="logo-con" class="col-md-6 col-sm-12">
+                    <div id="logo-con" class="col-md-6 col-sm-6 col-xs-12">
                         <a href="http://resume.dnet.org.bd/">
                             <img src="/assets/logo.png">
                         </a>
                     </div>
-                    <div class="col-md-6 menu col-sm-12" style="">
-					<div class="row">
-					   <div class="col-md-2 ">
-					   <?php if (isset($_GET['msg'])): ?>
-                       <!-- <a style="text-align: right" href="index.php" class="btn btn-primary btn-submit btn-lg pull-right-md">Apply</a> -->
-					  <?php else: ?>
-					  &nbsp;
-					  <?php endif; ?>
-					   </div>
-					    <div class="col-md-10">
-					        <h3 class="join-us">Join Us</h3>
-					        <h5 class="leading">the leading social enterprise</h5>
-					   </div>
-                    </div>
+                    <div class="col-md-6 menu col-sm-6 col-xs-12" style="">
+					     <h3 class="join-us">Join Us</h3>
+					     <h5 class="leading">the leading social enterprise</h5>
                     </div>
                 </div>
             </div>

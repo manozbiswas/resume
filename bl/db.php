@@ -35,7 +35,7 @@ class db
     public function __construct()
     {
         $this->dbHost = '192.168.3.36';
-        $this->dbUser = 'manoz';
+        $this->dbUser = @'manoz';
         $this->dbPassword = 'manoz@user#';
         $this->dbName = 'resume';
         $dsn = 'mysql:host=' . $this->dbHost . ';dbname=' . $this->dbName .';charset=utf8';

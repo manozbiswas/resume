@@ -1,5 +1,4 @@
 <?php
-//require_once(dirname(__FILE__).DIRECTORY_SEPARATOR.'bl/include.php');
 require_once 'bl/include.php';
 
   $db = new db();
@@ -9,7 +8,7 @@ if (isset($_POST['email'])) {
   
   if($conn){
 	$stmt = $conn->prepare("SELECT email From resume WHERE email=:email");
-    //$stmt->execute([':email' => $_POST['email']]);
+    $stmt->execute([':email' => $_POST['email']]);
     //$stmt->execute([':email' => 'mkbiitdu@gmail.c']);
     $row = $stmt->fetch();
     if ($row) {

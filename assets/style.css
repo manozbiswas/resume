@@ -19,12 +19,7 @@ a{
     margin-top: 10px;
     text-align: right;
 }
-@media (max-width:768px){
-    .menu{
-        margin-top: 10px;
-        text-align: center;
-    }
-}
+
 #top-con {
     border-bottom: 2px solid #ccc;
     height: auto;
@@ -185,4 +180,23 @@ input[type="file"] {
 }
 .custom-btn{
 	font-size:20px;
+}
+@media (max-width:768px){
+    .menu{
+        margin-top: 10px;
+        text-align: center;
+    }
+	.custom-height{
+		height:auto;
+	}
+	#logo-con {
+    text-align: center;
+  }
+}
+
+@media (max-width:992px){
+
+	.custom-height{
+		height:250px;
+	}
 }

@@ -3,7 +3,7 @@ require_once('db.php');
 require_once("PHPMailer/PHPMailerAutoload.php");
 
 
-ini_set('display_errors', 1);
+//ini_set('display_errors', 1);
 
 function sanitizeData($data = ''){
     return trim(htmlspecialchars($data));
